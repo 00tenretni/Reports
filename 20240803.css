@@ -1,0 +1,22 @@
+.content {
+  margin: auto;
+  max-width: 1300px;
+  padding: 10px;
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.image {
+  max-width: 800px;
+  max-height: 800px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 20px;
+}
