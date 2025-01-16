@@ -1,0 +1,72 @@
+.report-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+  max-width: 1300px;
+  padding: 10px;
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+.report-list_title {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.report-item {
+  display: flex;  
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.report-item:hover {
+  background-color: rgb(241, 236, 236);
+  cursor: pointer;
+}
+
+.report-item_image-title {
+  display: flex;
+  align-items: center; 
+  gap: 1rem;
+}
+
+.report-item_image-wrapper {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  height: 6rem;
+  width: 10rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.report-item_image {
+  /* max-width: 10rem; */
+  max-height: 6rem;
+  border-radius: 0.5rem;
+}
+
+.report-item_title {
+
+}
+
+.report-item_route-author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.report-item_route {
+
+}
+
+.report-item_author {
+
+}
