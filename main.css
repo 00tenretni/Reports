@@ -1,0 +1,27 @@
+.content {
+  margin: auto;
+  max-width: 80rem;
+  padding: 0.626rem;
+  background-color: lightgray;
+  font-size: x-large;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  background: linear-gradient(to bottom, #00acee, #0072e0);
+  width: 7rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding: 0.75rem 1.625rem;
+  border-radius: 6.25rem;
+  border: 0.1875rem solid transparent;
+  text-decoration: none;
+}
+

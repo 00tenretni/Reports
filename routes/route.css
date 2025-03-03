@@ -1,0 +1,88 @@
+body {
+  background-color: lightgrey;
+}
+.content {
+  margin: auto;
+  max-width: 1300px;
+  padding: 10px;
+  background-color: lightgray;
+  font-size: x-large;
+}
+
+.title {
+  text-align: center;
+}
+
+.route-basic {
+  display: flex;
+  gap: 1rem;
+}
+
+.route-basic-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.main-image {
+  width: 30rem;
+}
+
+.route-param {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.route-param-label {
+  font-size: large;
+}
+
+.route-param-value {
+  font-size: large;
+  font-weight: bold;
+}
+
+.route-author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.route-author-label {
+  font-size: large;
+}
+
+.route-author-value {
+  font-size: x-large;
+}
+
+.route-description {
+  margin-top: 1rem;
+  font-size: x-large;
+}
+
+.route-description-label {
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.route-description-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.route-description-body-text {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.route-description-body-image {
+  width: 800px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
