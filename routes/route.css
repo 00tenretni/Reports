@@ -1,6 +1,7 @@
 body {
   background-color: lightgrey;
 }
+
 .content {
   margin: auto;
   max-width: 1300px;
@@ -79,6 +80,7 @@ body {
   width: 100%;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
+  text-align: justify;
 }
 
 .route-description-body-image {

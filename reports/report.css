@@ -6,6 +6,12 @@
   font-size: x-large;
 }
 
+.content-paragraph {
+  text-align: justify;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
 .title {
   text-align: center;
 }
