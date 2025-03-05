@@ -1,5 +1,6 @@
 body {
-  background-color: lightgrey;
+  background-color: grey;
+  margin: 0;
 }
 
 .content {
@@ -27,6 +28,18 @@ body {
 
 .main-image {
   width: 30rem;
+  border-radius: 1rem;
+}
+
+.route-basic-params {
+  padding: 0.5rem;
+  background-color: beige;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem gray;
+}
+
+.route-group-param {
+  font-weight: bold;
 }
 
 .route-param {
@@ -34,15 +47,18 @@ body {
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .route-param-label {
   font-size: large;
+  text-decoration: underline;
 }
 
 .route-param-value {
   font-size: large;
   font-weight: bold;
+  color: darkblue;
 }
 
 .route-author {

@@ -1,8 +1,16 @@
+body {
+  background-color: grey;
+  margin: 0;
+
+  /* background-image: url("../image/IMG_20210718_090012.jpg");
+  background-size: cover; */
+}
 .content {
   margin: auto;
+  margin-top: 1rem;
   max-width: 80rem;
   padding: 0.626rem;
-  background-color: lightgray;
+  background-color: beige;
   font-size: x-large;
 }
 
